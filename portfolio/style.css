@@ -1,0 +1,43 @@
+h1{
+    color:rgb(0, 0, 255);
+}
+/*{
+    border:solid 2px rgb(231, 47, 255);
+}*/
+body{
+background-color:#808080
+
+}
+.header{
+    background-color: chartreuse;
+    display: flex; 
+    justify-content: space-between;
+    border:1px solid;
+    padding-left: 12px;
+
+}
+.menu{
+    display: flex;
+    background-color: rgb(255, 255, 0);
+    font-size: 20px;
+    padding: 10px;
+    font-family: Helvetica;
+    width: 130px;
+    flex-direction: column; 
+    row-gap: 10px ;
+}
+
+.grid{
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex; 
+    justify-content:flex-end;
+
+}
+p,h2{
+    text-align: center;
+}
+
